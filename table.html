@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <caption> 표1 </caption>
+        <style>
+            table{
+                
+                border : 1px solid black;
+                width: 500px;
+                
+            } th, td {
+                border : 1px solid black;
+                width: 40px;
+                height: 30px;
+            }
+        </style>
+
+        <thead>
+<!-- 표 목록 -->
+        </thead>
+        <!-- th : 열의 개수 지정 / tr : 한행지정 row -->
+        <tr>
+            <th>구분</th>
+            <th>1월</th>
+            <th>2월</th>
+            <th>3월</th>
+            <th>4월</th>
+            
+
+
+        </tr>
+        <tbody>
+            <tr>
+                <th rowspan="3">1</th>
+                <th>2000000</th>
+                <th>3000000</th>
+                <th>4000000</th>
+                <th>5000000</th>
+
+            </tr>
+            <tr>
+                
+                <th>2000000</th>
+                <th>3000000</th>
+                <th>4000000</th>
+                <th>5000000</th>
+
+            </tr>
+
+            <tr>
+                
+                <th>2000000</th>
+                <th>3000000</th>
+                <th>4000000</th>
+                <th>5000000</th>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>합계</th>
+                <th colspan="4">2000000</th>
+
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
