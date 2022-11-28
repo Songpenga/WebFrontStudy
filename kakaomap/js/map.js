@@ -48,7 +48,7 @@ class MapService{
 
         toggleButton.onclick = () => {
             const aside = document.querySelector("aside");
-            aside.classList.toggle("invisible-asie");
+            aside.classList.toggle("invisible-aside");
             if(aside.classList.contains("invisible-aside")){
                 toggleButton.textContent = "▶";
             } else {
@@ -69,7 +69,7 @@ class MapService{
 
                 const searchBody = document.querySelectorAll(".search-body");
                 for(let j = 0; j < searchBody.length; j++){
-                    searchBody[j].classList.add("invisivle-body");
+                    searchBody[j].classList.add("invisible-body");
                 }
                 searchBody[i].classList.remove("invisible-body");
             }
